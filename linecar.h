@@ -1,3 +1,6 @@
+#ifndef __LINECAR_H__
+#define __LINECAR_H__
+
 #include <SoftwareSerial.h>
 #include <Wire.h>
 class Motor
@@ -35,3 +38,5 @@ class Sensor
     Sensor(int right_sensor,int mid_sensor,int left_sensor);
     int sensor_read();
 };
+
+#endif
